@@ -6,6 +6,7 @@ class Factorial{
         System.out.println(recFact(no));
     }
 
+    // using For Loop
     static int fact(int no)
     {   int res = 1;
 
@@ -16,6 +17,7 @@ class Factorial{
         return res;
     }
 
+    //using recursion
     static int recFact(int no)
     {
         //Base case
