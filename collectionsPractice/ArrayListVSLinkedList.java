@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-import javax.crypto.AEADBadTagException;
+
 
 public class ArrayListVSLinkedList {
     public static void main(String[] args) {
@@ -31,7 +31,6 @@ public class ArrayListVSLinkedList {
             System.out.println(itr.next());
             itr.remove();
         }
-
 
         List<Integer> al2 = new LinkedList<>();
        System.out.println(al2.size());
