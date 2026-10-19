@@ -1,4 +1,4 @@
-package collectionsPractice;
+package MapDemo;
 
 import java.util.HashMap;
 import java.util.Map;

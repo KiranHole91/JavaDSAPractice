@@ -1,4 +1,4 @@
-package collectionsPractice;
+package SetDemo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
