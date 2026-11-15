@@ -1,4 +1,4 @@
-package ComparableComparator;
+package collectionsPractice.ComparableComparator;
 
 public class Emp implements Comparable<Emp> {
     

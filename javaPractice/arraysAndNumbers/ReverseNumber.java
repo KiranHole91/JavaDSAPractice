@@ -4,7 +4,7 @@ class ReverseNumber {
 
 public static void main(String args[]){
 
-    int num = 12345;
+    int num = 657512345;
     System.out.println("reverse NO :"+revNum(num) );
 
       int arr[] ={1,2,3,4,5};
@@ -13,9 +13,15 @@ public static void main(String args[]){
 
 public static int revNum(int num){
     int reverse = 0;
-
+    int lastDigit;
     while(num!=0){
-        reverse = (reverse*10) + (num%10);
+        lastDigit = num % 10;
+        if (reverse>Integer.MAX_VALUE/10)   //Edge case for overflow 
+        {
+            System.out.println(0);
+            System.exit(0);
+        }
+        reverse = (reverse*10) + lastDigit;
         num = num/10;
     }
 return reverse;

@@ -1,4 +1,4 @@
-package javaPractice.numbers;
+package javaPractice.arraysAndNumbers;
 
 public class PostDecimalCounter {
     /* Find the number of integer post decimal */

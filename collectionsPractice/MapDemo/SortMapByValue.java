@@ -1,4 +1,4 @@
-package MapDemo;
+package collectionsPractice.MapDemo;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;

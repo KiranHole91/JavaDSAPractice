@@ -1,4 +1,4 @@
-package Patterns;
+package collectionsPractice.Patterns;
 
 public class stairs {
     public static void main(String[] args) {

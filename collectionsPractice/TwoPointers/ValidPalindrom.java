@@ -1,4 +1,4 @@
-package TwoPointers;
+package collectionsPractice.TwoPointers;
 
 public class ValidPalindrom {
     public static void main(String[] args) {

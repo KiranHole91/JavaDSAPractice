@@ -1,4 +1,4 @@
-package TwoPointers;
+package collectionsPractice.TwoPointers;
 
 public class MostWater {
     /*

@@ -1,4 +1,4 @@
-package TwoPointers;
+package collectionsPractice.TwoPointers;
 
 class ListNode {
     int val;
