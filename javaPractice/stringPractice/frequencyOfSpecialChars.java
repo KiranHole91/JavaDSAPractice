@@ -19,6 +19,13 @@ public class frequencyOfSpecialChars {
         }
         //Different ways of printing Map
          System.out.println(splChaFreqMap);
+
+        for(char splChar : splChaFreqMap.keySet())
+            {
+                System.out.println(splChar +" - "+splChaFreqMap.get(splChar));
+            }
+
+            
         for (Map.Entry<Character,Integer> e : splChaFreqMap.entrySet()) 
             {
                 System.out.println(e.getKey()+" : "+e.getValue());
