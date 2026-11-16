@@ -5,7 +5,7 @@ public class ReverseString {
 
     public static void main(String[] args) {
         String s = "Kiran";
-
+        System.out.println(s.length());
         reverseStr(s);
         reverseWithTemp(s);
     }
