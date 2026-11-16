@@ -1,3 +1,5 @@
+package javaPractice.arraysAndNumbers;
+
 public class SumMinMaxAvg {
     public static void main(String[] args) {
         

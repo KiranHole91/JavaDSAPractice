@@ -1,3 +1,5 @@
+package javaPractice.stringPractice;
+
 import java.util.HashMap;
 
 public class WordCount {

@@ -1,3 +1,5 @@
+package javaPractice.stringPractice;
+
 
 public class StringPalindrome {
 

@@ -1,3 +1,5 @@
+package javaPractice.arraysAndNumbers;
+
 public class AdditionNumber {
     
     public static void main(String args[]){

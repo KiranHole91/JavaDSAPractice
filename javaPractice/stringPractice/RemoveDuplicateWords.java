@@ -1,3 +1,5 @@
+package javaPractice.stringPractice;
+
 import java.util.LinkedHashSet;
 import java.util.Set;
 

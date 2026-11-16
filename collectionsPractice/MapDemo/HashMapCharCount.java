@@ -8,14 +8,21 @@ public class HashMapCharCount {
 
     //Count each character in "automation", ignoring case and spaces, and find the most frequent.
     public static void main(String[] args) {       
-        String str = "automation testing";
+        String str = "automationTest";
         HashMap<Character, Integer> map = new HashMap<>();
-
+        
         for(char ch : str.toLowerCase().toCharArray())
         {
             map.put(ch, map.getOrDefault(ch,0)+1);
         }
-        System.out.println(new TreeMap<>(map));  
+
+        //Print the Key - Values
+        for(char ch: map.keySet())
+        {
+            System.out.println(ch+ " : "+map.get(ch));
+        }
+
+        // Find & print Most frequent
 
         int max = 0;
         char top=' ';

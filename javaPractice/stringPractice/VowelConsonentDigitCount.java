@@ -1,3 +1,5 @@
+package javaPractice.stringPractice;
+
 public class VowelConsonentDigitCount {
     public static void main(String[] args) {
         String str = "Hey there I'm Kiran ID 1123";

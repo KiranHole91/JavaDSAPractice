@@ -1,3 +1,5 @@
+package javaPractice.arraysAndNumbers;
+
 import java.util.Arrays;
 
 class ReverseNumber {
