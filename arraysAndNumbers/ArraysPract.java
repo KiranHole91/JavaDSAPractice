@@ -1,4 +1,4 @@
-package collectionsPractice;
+package arraysAndNumbers;
 import java.util.Arrays;
 
 
