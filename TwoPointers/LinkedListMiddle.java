@@ -1,4 +1,4 @@
-package collectionsPractice.TwoPointers;
+package TwoPointers;
 
 public class LinkedListMiddle {
     /*
